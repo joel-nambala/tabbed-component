@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Tabbed Component</title>
+  </head>
+  <body>
+    <div class="tabbed-component">
+      <div class="tab-header">
+        <button class="btn active" data-id="home">Home</button>
+        <button class="btn" data-id="about">About</button>
+        <button class="btn" data-id="services">Services</button>
+        <button class="btn" data-id="contacts">Contacts</button>
+      </div>
+      <div class="tab-body">
+        <div class="home tab-container active" id="home">
+          <h2>Tabbed component</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+            aliquam distinctio eos nesciunt possimus, laudantium optio doloribus
+            nam a dolore.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+            assumenda dolor iure aperiam hic distinctio quis ad sint corporis
+            provident?
+          </p>
+        </div>
+
+        <div class="about tab-container" id="about">
+          <h2>About us</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
+            sed consequatur voluptatem beatae iure perferendis rem id, vitae
+            voluptatum corrupti! Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Natus, facere? Placeat, iure suscipit corporis
+            quas fugiat odit vitae voluptas dolores hic nobis voluptatum facere
+            debitis doloremque labore eum delectus architecto!
+          </p>
+        </div>
+
+        <div class="services tab-container" id="services">
+          <h2>Our services</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+            error aperiam qui dignissimos fugiat inventore.
+          </p>
+          <h3>We offer the following services</h3>
+          <ul>
+            <li>Web development</li>
+            <li>Web hosting</li>
+            <li>Web maintenance</li>
+          </ul>
+        </div>
+
+        <div class="contacts tab-container" id="contacts">
+          <h2>Contact us for more information</h2>
+          <h3>Follow us on our social media platforms</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>LinkedIn</li>
+            <li>Instagram</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
